@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baruc Aguilar</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-        .container { max-width: 40%; margin: auto; padding: 20px;}
-		  h4 { margin:10px 0 10px; }
-        a { display: block; margin: 10px 0; padding: 10px; background: #bd9f52; color: #234582; text-decoration: none; border-radius: 5px; border: 2px solid #bd9f52}
-        a:hover { background: #234582;color: #bd9f52; }
-		img { border-radius:50%; width:100px; height:100px; }
-		body { background:#234582; color:#fff; font-family:sans-serif; text-align:center; margin:50px;}
-   
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baruc Aguilar</title>
+  <style>
+    * {box-sizing: border-box;}
+
+    body {background: #234582;color: #fff;font-family: Arial, sans-serif;text-align: center;margin: 0;padding: 20px;}
+
+    .container {width: 90%;max-width: 500px;margin: auto;padding: 20px;}
+
+    h1 {font-size: 1.8em; margin-bottom: 20px;}
+
+    h4 {margin: 10px 0;font-size: 1.1em;}
+
+    a,
+    a:visited {display: block;margin: 10px auto;padding: 12px;background: #bd9f52;color: #234582;text-decoration: none;border-radius: 8px;border: 2px solid #bd9f52;max-width: 100%;transition: all 0.3s ease;}
+
+    a:hover {background: #234582;color: #bd9f52;}
+
+    img {border-radius: 50%;width: 30vw;max-width: 120px;height: auto;margin-bottom: 20px;}
+
+    @media (max-width: 600px) 
+	{
+      h1 {font-size: 1.5em;}
+
+      a {font-size: 1em;padding: 10px;}
+    }
+
+    @media (min-width: 1000px) {
+      .container {
+        max-width: 600px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-	<img src="myphoto.webp" alt="Retrato masculino joven con fondo borroso" />
-        <h1>Baruc Aguilar Bolados</h1>
-        <h4><a href="https://www.linkedin.com/in/barucaguilarbolados/">Conectémonos en LinkedIn</a></h4>
-        <h4><a href="https://github.com/baruc90">Contribuciones de código abierto</a></h4>
-        <h4><a href="https://github.com/baruc90/MIA">¡Disfruta de MIA! (DESCARGA AQUI)</a></h4>
-		
-    </div>
+  <div class="container">
+    <img src="myphoto.webp" alt="Retrato" />
+    <h1>Baruc Aguilar Bolados</h1>
+    <h4><a href="https://www.linkedin.com/in/barucaguilarbolados/">Conectémonos en LinkedIn</a></h4>
+    <h4><a href="https://github.com/baruc90">Contribuciones de código abierto</a></h4>
+    <h4><a href="https://github.com/baruc90/MIA">¡Disfruta de MIA! (DESCARGA AQUI)</a></h4>
+  </div>
 </body>
 </html>
